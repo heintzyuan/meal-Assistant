@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/customer/customer",
+    "pages/deliverLogin/deliverLogin",
+    "pages/makeOrder/makeOrder",
+    "pages/orderHistory/History",
+    "pages/deliver/deliver"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "UTD后食堂",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/customer/customer",
+        "text": "我是顾客",
+        "iconPath":"img/account.png",
+        "selectedIconPath": "img/account-filling.png"
+      },
+      {
+        "pagePath": "pages/deliverLogin/deliverLogin",
+        "text": "我是送餐员",
+        "iconPath": "img/kuaidi.png",
+        "selectedIconPath": "img/kuaidi-filling.png"
+      }
+    ]
+  }
+}

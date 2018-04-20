@@ -1,0 +1,2 @@
+<view class="makeOrder" ontap= "makeOrder">我要订餐></view>
+<view class="orderHistory" ontap="orderHistory">订单记录></view>

@@ -1,0 +1,16 @@
+<view>
+  <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+  <view>
+    <input class="num" type="text" bindinput="bindNum" placeholder="数量"/>
+  </view>
+
+<radio-group class="whereToPick" bindchange="whereToPick">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+
+  <view class="section">
+    <button class="bt" type="primary" ontap="makeOrder">下单</button>
+  </view>
+</view>

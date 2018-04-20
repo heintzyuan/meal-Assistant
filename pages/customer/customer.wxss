@@ -1,0 +1,10 @@
+.makeOrder{
+  text-align: center;
+  margin: 100rpx;
+  margin-top: 300rpx;
+}
+
+.orderHistory{
+  text-align: center;
+  margin: 100rpx;
+}
